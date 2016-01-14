@@ -1,0 +1,26 @@
+{
+  "name": "multifoto",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjwilliams/multifoto.git"
+  },
+  "author": "Josh Williams",
+  "license": "MIT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjwilliams/multifoto/issues"
+  },
+  "homepage": "https://github.com/sjwilliams/multifoto",
+  "devDependencies": {
+    "uglify-js": "^2.4.13"
+  },
+  "scripts": {
+    "minify": "uglifyjs jquery.multifoto.js -c --comments -o jquery.multifoto.min.js"
+  }
+}

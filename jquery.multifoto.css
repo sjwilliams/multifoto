@@ -1,0 +1,18 @@
+.multifoto{
+  display: block;
+  position: relative;
+}
+
+
+.multifoto img{
+  display: block;
+  width: 100%;
+  opacity: 0;
+  /*transition: opacity 0.1s ease;*/
+  -webkit-transform: translateZ(0px);
+  -webkit-backface-visibility: hidden;
+}
+
+.multifoto img.mf-active{
+  opacity: 1;
+}

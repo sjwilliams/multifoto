@@ -8,7 +8,7 @@
   display: block;
   width: 100%;
   opacity: 0;
-  /*transition: opacity 0.1s ease;*/
+  transition: opacity 0.2s ease;
   -webkit-transform: translateZ(0px);
   -webkit-backface-visibility: hidden;
 }
